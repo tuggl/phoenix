@@ -1,5 +1,5 @@
-C:\Users\Bui\phoenix\bin\Debug\Phoenix Emulator.exe
-C:\Users\Bui\phoenix\bin\Debug\Phoenix Emulator.pdb
-C:\Users\Bui\phoenix\obj\x86\Debug\Phoenix.csprojResolveAssemblyReference.cache
+C:\Users\Bui\phoenix\bin\Phoenix Emulator.exe
+C:\Users\Bui\phoenix\bin\Phoenix Emulator.pdb
+C:\Users\Bui\phoenix\bin\MySql.Data.dll
 C:\Users\Bui\phoenix\obj\x86\Debug\Phoenix Emulator.exe
 C:\Users\Bui\phoenix\obj\x86\Debug\Phoenix Emulator.pdb
