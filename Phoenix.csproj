@@ -415,7 +415,7 @@
     <Compile Include="src\Struct4.cs" />
     <Compile Include="src\Struct5.cs" />
     <Compile Include="src\Struct6.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="phoenix.ico" />
