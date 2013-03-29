@@ -12,8 +12,13 @@
 [Rr]elease/
 x64/
 build/
-[Bb]in/
 [Oo]bj/
+
+bin/Release/
+bin/*.pdb
+bin/*.vshost.exe
+bin/*.vshost.exe.manifest
+
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
