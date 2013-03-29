@@ -1,0 +1,5 @@
+C:\Users\Bui\psc\bin\Debug\Phoenix 3.0.exe
+C:\Users\Bui\psc\bin\Debug\Phoenix 3.0.pdb
+C:\Users\Bui\psc\obj\x86\Debug\Phoenix.csprojResolveAssemblyReference.cache
+C:\Users\Bui\psc\obj\x86\Debug\Phoenix 3.0.exe
+C:\Users\Bui\psc\obj\x86\Debug\Phoenix 3.0.pdb
