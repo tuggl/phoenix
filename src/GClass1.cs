@@ -30,6 +30,7 @@ namespace ns0
 		}
 		public GClass1(uint uint_1, SocketInformation socketInformation_0) : base(socketInformation_0)
 		{
+            Console.WriteLine(base.RemoteEndPoint.ToString());
 			this.uint_0 = uint_1;
 			this.string_0 = base.RemoteEndPoint.ToString().Split(new char[]
 			{
