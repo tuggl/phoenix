@@ -13,7 +13,16 @@ namespace ns0
 			this.class7_0 = class7_1;
 			this.mySqlConnection_0 = new MySqlConnection(class7_1.String_0);
 			this.mySqlCommand_0 = this.mySqlConnection_0.CreateCommand();
-			this.mySqlConnection_0.Open();
+            try
+            {
+                this.mySqlConnection_0.Open();
+            }
+            catch
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Could not connect to the MySQL database.");
+                Phoenix.pause();
+            }
 		}
 		public void Dispose()
 		{

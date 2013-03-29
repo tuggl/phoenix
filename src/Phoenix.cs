@@ -46,6 +46,14 @@ namespace ns0
                 Phoenix.class3_0 = value;
             }
         }
+
+        public static void pause()
+        {
+            while (true) {
+                System.Threading.Thread.Sleep(5000);
+            }
+        }
+
         public static string smethod_0(string string_8)
         {
             MD5CryptoServiceProvider mD5CryptoServiceProvider = new MD5CryptoServiceProvider();
