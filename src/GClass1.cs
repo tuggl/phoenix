@@ -127,7 +127,7 @@ namespace ns0
 				}
 				catch (Exception e)
 				{
-                    Console.WriteLine(e);
+                    Console.WriteLine("  " + e);
 					this.method_1();
 				}
 			}
@@ -199,7 +199,7 @@ namespace ns0
 				Class321.smethod_3(this.string_0);
 				if (Phoenix.smethod_11().dictionary_0["emu.messages.connections"] == "1")
 				{
-					Console.WriteLine(string.Concat(new object[]
+					Console.WriteLine("  " + string.Concat(new object[]
 					{
 						">> Connection Dropped [",
 						this.uint_0,

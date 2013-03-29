@@ -483,8 +483,8 @@ namespace ns0
 					}
 				}
 			}
-			Console.WriteLine("Done saving users inventory!");
-			Console.WriteLine("Closing server connections...");
+			Console.WriteLine("  " + "Done saving users inventory!");
+			Console.WriteLine("  " + "Closing server connections...");
 			try
 			{
 				for (int i = 0; i < this.class16_0.Length; i++)
@@ -507,7 +507,7 @@ namespace ns0
 				GClass4.smethod_8(ex.ToString());
 			}
 			Array.Clear(this.class16_0, 0, this.class16_0.Length);
-			Console.WriteLine("Connections closed!");
+			Console.WriteLine("  " + "Connections closed!");
 		}
 		public void method_25(uint uint_0)
 		{

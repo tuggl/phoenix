@@ -101,7 +101,7 @@ namespace ns0
 			if (!Class54.dictionary_0.ContainsKey(uint_0))
 			{
 				Console.ForegroundColor = ConsoleColor.Blue;
-				Console.WriteLine("AchievementID: " + uint_0 + " does not exist in your database!");
+				Console.WriteLine("  " + "AchievementID: " + uint_0 + " does not exist in your database!");
 				Console.ForegroundColor = ConsoleColor.White;
 			}
 			else
@@ -125,7 +125,7 @@ namespace ns0
 			if (!Class54.dictionary_0.ContainsKey(uint_0))
 			{
 				Console.ForegroundColor = ConsoleColor.Blue;
-				Console.WriteLine("AchievementID: " + uint_0 + " does not exist in our database!");
+				Console.WriteLine("  " + "AchievementID: " + uint_0 + " does not exist in our database!");
 				Console.ForegroundColor = ConsoleColor.White;
 			}
 			else

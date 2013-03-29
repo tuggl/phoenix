@@ -431,7 +431,7 @@ namespace ns0
 				}
 				if (bool_0)
 				{
-					Console.WriteLine("Inventory for user: " + this.method_16().method_2().string_0 + " saved.");
+					Console.WriteLine("  " + "Inventory for user: " + this.method_16().method_2().string_0 + " saved.");
 				}
 			}
 			catch (Exception ex)

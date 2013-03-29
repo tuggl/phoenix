@@ -94,7 +94,7 @@ namespace ns0
 					{
 						Console.ForegroundColor = ConsoleColor.Red;
 						Console.WriteLine();
-						Console.WriteLine("Please update your profile settings on Otaku");
+						Console.WriteLine("  " + "Please update your profile settings on Otaku");
 						result = null;
 						return result;
 					}

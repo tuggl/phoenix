@@ -365,11 +365,11 @@ namespace ns0
                 {
                     return;
                 }
-                Console.WriteLine(string_8);
+                Console.WriteLine("  " + string_8);
                 GClass4.smethod_7();
                 Phoenix.smethod_17("ATTENTION:\r\nThe server is shutting down. All furniture placed in rooms/traded/bought after this message is on your own responsibillity.");
                 Phoenix.bool_1 = true;
-                Console.WriteLine("Server shutting down...");
+                Console.WriteLine("  " + "Server shutting down...");
                 try
                 {
                     Phoenix.class3_0.method_9().method_4();
@@ -388,14 +388,14 @@ namespace ns0
                 }
                 try
                 {
-                    Console.WriteLine("Destroying database manager.");
+                    Console.WriteLine("  " + "Destroying database manager.");
                     MySqlConnection.ClearAllPools();
                     Phoenix.class7_0 = null;
                 }
                 catch
                 {
                 }
-                Console.WriteLine("System disposed, goodbye!");
+                Console.WriteLine("  " + "System disposed, goodbye!");
             }
             else
             {
@@ -418,7 +418,7 @@ namespace ns0
                 }
                 Phoenix.class113_0.method_7();
                 Phoenix.class3_0.method_1();
-                Console.WriteLine(string_8);
+                Console.WriteLine("  " + string_8);
             }
             if (bool_2)
             {

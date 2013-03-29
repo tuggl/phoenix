@@ -26,7 +26,7 @@ namespace ns0
 				if (Class321.smethod_2(text) > 10 && text != "127.0.0.1" && !Class13.bool_0)
 				{
 					Console.ForegroundColor = ConsoleColor.Blue;
-					Console.WriteLine(text + " was banned by Anti-DDoS system.");
+					Console.WriteLine("  " + text + " was banned by Anti-DDoS system.");
 					Console.ForegroundColor = ConsoleColor.White;
 					GClass4.smethod_5(text + " - " + DateTime.Now.ToString());
 					Class321.string_1 = text;

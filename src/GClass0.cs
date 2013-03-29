@@ -37,7 +37,7 @@ namespace ns0
 			}
 			catch (Exception ex)
 			{
-				Console.Write(ex.ToString());
+				Console.Write("  " + ex.ToString());
 			}
 			while (true)
 			{
@@ -55,7 +55,7 @@ namespace ns0
 			if (GClass0.bool_0)
 			{
 				GClass4.smethod_7();
-				Console.WriteLine("The server is saving users furniture, rooms, etc. WAIT FOR THE SERVER TO CLOSE, DO NOT EXIT THE PROCESS IN TASK MANAGER!!");
+				Console.WriteLine("  " + "The server is saving users furniture, rooms, etc. WAIT FOR THE SERVER TO CLOSE, DO NOT EXIT THE PROCESS IN TASK MANAGER!!");
 				Phoenix.smethod_19("", true);
 			}
 			return true;

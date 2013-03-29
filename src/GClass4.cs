@@ -10,14 +10,14 @@ namespace ns0
 		{
 			if (!GClass4.bool_0)
 			{
-				Console.Write(string_0);
+				Console.Write("  " + string_0);
 			}
 		}
 		internal static void smethod_1(string string_0)
 		{
 			if (!GClass4.bool_0)
 			{
-				Console.WriteLine(string_0);
+				Console.WriteLine("  " + string_0);
 			}
 		}
 		internal static void smethod_2(string string_0)

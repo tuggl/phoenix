@@ -116,7 +116,7 @@ namespace ns0
 				}
 				if (Phoenix.smethod_11().dictionary_0["emu.messages.roommgr"] == "1")
 				{
-					Console.WriteLine("[RoomMgr] Done with furniture saving, disposing rooms");
+					Console.WriteLine("  " + "[RoomMgr] Done with furniture saving, disposing rooms");
 				}
 				enumerator = class26_.Values.GetEnumerator();
 				try
@@ -143,7 +143,7 @@ namespace ns0
 				}
 				if (Phoenix.smethod_11().dictionary_0["emu.messages.roommgr"] == "1")
 				{
-					Console.WriteLine("[RoomMgr] Done disposing rooms!");
+					Console.WriteLine("  " + "[RoomMgr] Done disposing rooms!");
 				}
 			}
 		}
