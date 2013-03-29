@@ -61,7 +61,7 @@ namespace ns0
 					Phoenix.smethod_15().method_2().method_23();
 					Console.Title = string.Concat(new object[]
 					{
-						"Phoenix 3.0 | Online Users: ",
+						"Phoenix 3.11.0 | Online Users: ",
 						num2,
 						" | Rooms Loaded: ",
 						int32_,

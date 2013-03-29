@@ -2398,19 +2398,10 @@ namespace ns0
 					}
 					class16_0.method_10(string.Concat(new object[]
 					{
-						"Phoenix 3.0\n\nThanks/Credits;\nSojobo [Lead Dev]\nMatty [Dev]\nRoy [Uber Emu]\n\n",
-						Phoenix.String_0,
-						"\nLicenced to: ",
-						Phoenix.string_6,
-						"\n\nUptime: ",
-						timeSpan.Days,
-						" days, ",
-						timeSpan.Hours,
-						" hours and ",
-						timeSpan.Minutes,
-						" minutes",
+						"Phoenix Emulator 3.11.0\n\n",
+						"Uptime: ", timeSpan.Days, " days, ", timeSpan.Hours, " hours and ", timeSpan.Minutes, " minutes",
 						text10
-					}), "http://www.otaku.cm");
+					}), "https://github.com/tuggl/phoenix");
 					result = true;
 					return result;
 					IL_3F91:;

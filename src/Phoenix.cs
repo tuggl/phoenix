@@ -84,7 +84,7 @@ namespace ns0
         }
         public void method_0()
         {
-            Console.Title = "Phoenix Emulator 3.11.0";
+            Console.Title = "Phoenix Emulator";
             
             if (!Class66.smethod_0(true))
             {
