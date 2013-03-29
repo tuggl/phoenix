@@ -96,9 +96,10 @@ namespace ns0
                 {
                     Phoenix.class1_0 = new Class1("config.conf");
                     DateTime now = DateTime.Now;
-                    Phoenix.string_6 = Phoenix.smethod_11().dictionary_0["Otaku-Studios.username"];
-                    Phoenix.string_7 = new Random().Next(Int32.MaxValue).ToString();//Class2.smethod_11().dictionary_0["Otaku-Studios.password"];
-                    int num = Phoenix.string_6.Length * Phoenix.string_7.Length;
+                    //Phoenix.string_6 = Phoenix.smethod_11().dictionary_0["Otaku-Studios.username"];
+                    //Phoenix.string_7 = new Random().Next(Int32.MaxValue).ToString();//Class2.smethod_11().dictionary_0["Otaku-Studios.password"];
+                    //int num = Phoenix.string_6.Length * Phoenix.string_7.Length;
+                    int num = 45;
 
                     //if (Phoenix.string_6 == "" || Phoenix.string_7 == "" || Class13.Boolean_7)
                     //{
