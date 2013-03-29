@@ -75,11 +75,11 @@ namespace ns0
 				this.class20_0.method_0(@class);
 				this.class60_0.method_0(@class);
 				Class13.String_5 = Class13.String_3;
-				Class13.String_5 = Class13.String_6.Length.ToString();
+				//Class13.String_5 = Class13.String_6.Length.ToString();
 				Class54.smethod_0(@class);
 				this.class0_0.method_0();
 				Class58.smethod_0(@class);
-				Class13.String_5 = Class13.String_3.Length.ToString();
+				//Class13.String_5 = Class13.String_3.Length.ToString();
 				this.class9_0.method_0();
 				Class4.smethod_0(@class);
 				this.method_0(@class, 1);

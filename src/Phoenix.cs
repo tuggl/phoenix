@@ -142,8 +142,8 @@ namespace ns0
 
                         Class13.String_1 = text;
                         Phoenix.class3_0 = new Class3(int.Parse(Phoenix.smethod_11().dictionary_0["game.tcp.conlimit"]));
-                        string text2 = Class13.String_5 + Phoenix.smethod_0((Class13.String_6.Length * 14986).ToString());
-                        text2 += Phoenix.smethod_0((Class13.String_3.Length % 14986).ToString());
+                        //string text2 = Class13.String_5 + Phoenix.smethod_0((Class13.String_6.Length * 14986).ToString());
+                        //text2 += Phoenix.smethod_0((Class13.String_3.Length % 14986).ToString());
 
                         Phoenix.class117_0 = new Class117();
                         Phoenix.class117_0.method_1();
