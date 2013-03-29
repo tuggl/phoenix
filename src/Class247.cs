@@ -1,0 +1,20 @@
+using System;
+namespace ns0
+{
+	internal sealed class Class247 : Interface0
+	{
+		public void imethod_0(Class16 class16_0, Class18 class18_0)
+		{
+			Class14 @class = Phoenix.smethod_15().method_9().method_19(class16_0.method_2().uint_3);
+			if (@class != null && @class.method_26(class16_0))
+			{
+				Class63 class2 = @class.method_28(class18_0.method_15());
+				if (class2 != null)
+				{
+					string string_ = class18_0.method_9();
+					@class.method_82(class16_0, class2, false, string_);
+				}
+			}
+		}
+	}
+}
