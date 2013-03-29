@@ -1,11 +1,11 @@
 PHOENIX EMULATOR
 
-Phoenix Emulator is a popular, proprietary Habbo Hotel emulator written in C# 4.0 by Aaron Marshall. This git repository publishes the reflected source code of the latest Phoenix version, with a few differences:
+Phoenix Emulator is a popular, proprietary Habbo Hotel emulator written in C# 4.0 by Aaron Marshall. This Git repository publishes the reflected source code of the latest Phoenix build, with a few differences:
 
     - No more backdoors left in by the author.
     - A nice, tidy directory layout.
-    - A few extra beneficial changes in the source code.
+    - A few extra user-beneficial changes in the source code.
 
-As the emulator is not subject to copyright (and would be unlawful to make it so), this repository is perfectly legal. You are free to copy and distribute this emulator as you see fit.
+As the emulator is not subject to copyright (and would be unlawful to make it so), this repository is perfectly legal. You are free to copy, modify and distribute this emulator as you see fit.
 
 Thanks to Quackster <https://github.com/Quackster> for decompiling the binary and removing the backdoors!
