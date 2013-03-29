@@ -20,7 +20,8 @@ namespace ns0
             catch
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("  " + "Could not connect to the MySQL database.");
+                Console.WriteLine("  Could not connect to the MySQL database.");
+                Console.WriteLine("  Verify that you have the correct details in config.conf and try again.");
                 Phoenix.pause();
             }
 		}

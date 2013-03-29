@@ -194,10 +194,10 @@ namespace ns0
                 }
                 catch (KeyNotFoundException)
                 {
-                    GClass4.smethod_1("Failed to boot, key not found.");
-                    GClass4.smethod_1("Press any key to shut down ...");
-                    Console.ReadKey(true);
-                    Phoenix.smethod_16();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("  There are missing required settings in your config.conf file.");
+                    Console.WriteLine("  Verify that you have all required settings set and try again.");
+                    Phoenix.pause();
                 }
                 catch (InvalidOperationException ex)
                 {
