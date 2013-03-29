@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Exe</OutputType>
-    <AssemblyName>Phoenix Emulator</AssemblyName>
+    <AssemblyName>phoenix-emulator</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -29,6 +29,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ns0.GClass0</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
@@ -412,6 +415,7 @@
     <Compile Include="ns0\Struct4.cs" />
     <Compile Include="ns0\Struct5.cs" />
     <Compile Include="ns0\Struct6.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="phoenix.ico" />
