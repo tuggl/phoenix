@@ -92,13 +92,13 @@ namespace ns0
                     Phoenix.string_7 = new Random().Next(Int32.MaxValue).ToString();//Class2.smethod_11().dictionary_0["Otaku-Studios.password"];
                     int num = Phoenix.string_6.Length * Phoenix.string_7.Length;
 
-                    if (Phoenix.string_6 == "" || Phoenix.string_7 == "" || Class13.Boolean_7)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Phoenix.smethod_19("Invalid Licence details found #0001", false);
-                    }
-                    else
-                    {
+                    //if (Phoenix.string_6 == "" || Phoenix.string_7 == "" || Class13.Boolean_7)
+                    //{
+                        //Console.ForegroundColor = ConsoleColor.Red;
+                        //Phoenix.smethod_19("Invalid Licence details found #0001", false);
+                    //}
+                    //else
+                    //{
                         Class13.String_6 = Phoenix.string_6;
                         Class13.String_3 = Phoenix.string_7;
                         string text = new Random().Next(Int32.MaxValue).ToString();
@@ -164,7 +164,7 @@ namespace ns0
                         Phoenix.class117_0.method_25();
                         Phoenix.class117_0.method_26();
                         Phoenix.class117_0.method_27();
-                    }
+                    //}
 
                     Class13.int_12 = int.Parse(Phoenix.smethod_11().dictionary_0["game.tcp.port"]);
                     Class13.int_13 = int.Parse(Phoenix.smethod_11().dictionary_0["mus.tcp.port"]);
